@@ -1,0 +1,43 @@
+.maindiv{
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+}
+
+form{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 460px;
+    background-color: rgb(70, 85, 104);
+    border-radius: 20px;
+}
+form input{
+    margin: 10px;
+    padding: 10px 15px;
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+form .display input{
+    text-align: right;
+    width: 240px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 37px;
+}
+form #equal{
+    width: 123px;
+    color: aqua;
+}
+.aqua{
+    color: aqua;
+}
